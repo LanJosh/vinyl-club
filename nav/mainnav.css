@@ -1,0 +1,27 @@
+#main-nav-container {
+	position: absolute;
+	background-color: #ffffff;
+	z-index: 1;
+	width: 50%;
+	min-height: 100%
+}
+
+nav.home-nav {
+	position: absolute;
+	top: 40%;	
+	left: 40%;
+}
+
+nav.home-nav > ul > li > a {
+	text-decoration: none;
+	font-family: "Courier New", Courier, serif;
+	color: #000000
+}
+
+nav.home-nav > ul {
+	list-style-type: none;
+}
+
+nav.home-nav > ul >li {
+	margin: 20px 0;
+}

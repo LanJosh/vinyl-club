@@ -1,0 +1,21 @@
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+img.logo {
+	display: inline-block;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 2;
+}
+

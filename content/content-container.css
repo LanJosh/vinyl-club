@@ -7,4 +7,23 @@ div.content-container {
 	right: 50%;
 }
 
+.content {
+	display: inline-block;
+	position: absolute;
+	margin: auto;
+	z-index: 3;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	height: 75%;
+	background-color: #ffffff;
+	border-width: 0px;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 5px;
+	padding: 0 0 0 0;
+}
+
 

@@ -1,0 +1,39 @@
+div.nav-container {
+	display: none;
+	position: absolute;
+	background-image: url("musigh-bg.png");
+	z-index: 1;
+	width: 50%;
+	height: 100%;
+	right: 0;
+}
+
+nav.home-nav {
+	display: none;
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	text-align: left;
+	background-color: #ffffff;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+div.nav-select {
+	text-decoration: none;
+	font-family: "Courier New", Courier, serif;
+	color: #000000
+}
+
+div.nav-select:hover {
+	cursor: default;
+}
+
+nav.home-nav > ul {
+	list-style-type: none;
+	padding: 0px 5px 0px 10px;
+}
+
+nav.home-nav > ul >li {
+	margin: 20px 0; 
+}

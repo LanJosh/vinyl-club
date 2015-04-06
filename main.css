@@ -22,3 +22,26 @@ img.logo {
 img.logo:hover {
 	cursor: pointer;
 }
+
+@font-face{
+	font-family: bebas;
+	src: url(BebasNeueBook.otf);
+}
+
+@font-face{
+	font-family: ostrich-sans;
+	src: url(ostrich-sans-black.ttf);
+}
+
+h1 {
+	font-family: ostrich-sans;
+	text-align: center;
+	font-size: 70px;
+}
+
+p {
+	font-family: bebas;
+	text-align: center;
+	font-size: 30px;
+	padding: 5px 5px 5px 5px;
+}
